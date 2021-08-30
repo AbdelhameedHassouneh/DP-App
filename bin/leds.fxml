@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="120.0" layoutY="91.0" prefHeight="608.0" prefWidth="100.0" />
+      <VBox layoutX="14.0" layoutY="91.0" prefHeight="608.0" prefWidth="100.0">
+         <children>
+            <Circle fill="DODGERBLUE" radius="52.0" stroke="BLACK" strokeType="INSIDE" />
+         </children></VBox>
+      <Label layoutX="375.0" layoutY="126.0" prefHeight="35.0" prefWidth="184.0" text="Number of turned on leds:" />
+      <Label layoutX="375.0" layoutY="171.0" prefHeight="35.0" prefWidth="192.0" text="Number of turned on leds:" />
+      <RadioButton layoutX="375.0" layoutY="227.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="47.0" text="on" />
+      <RadioButton layoutX="422.0" layoutY="227.0" mnemonicParsing="false" text="off" />
+      <Button layoutX="414.0" layoutY="305.0" mnemonicParsing="false" text="Back " />
+      <Label layoutX="309.0" layoutY="30.0" text="Leds ">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
